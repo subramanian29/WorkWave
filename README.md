@@ -10,8 +10,6 @@ This project is a comprehensive job portal that utilizes machine learning techni
 
 - **Resume Ranking**: Resumes are ranked according to their relevance to the job postings, allowing recruiters to efficiently identify the most qualified candidates.
 
-- **Fraudulent Job Detection**: Leveraging machine learning, the system identifies and flags potentially fraudulent job listings, enhancing the security and reliability of the platform.
-
 - **Front End React App**: The user interface is built using React.js, providing a responsive and dynamic experience for both job seekers and recruiters.
 
 ## Technologies Used
@@ -20,7 +18,7 @@ This project is a comprehensive job portal that utilizes machine learning techni
 - **Front End**: React.js, HTML, CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Version Control**: Git, GitHub
+
 
 ## Installation
 
