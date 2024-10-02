@@ -31,6 +31,7 @@ const Applicants = () => {
   }, [sanitizedId]);
 
   const handleSearch = () => {
+    console.log(originalApplicants)
     const filter = originalApplicants.filter(
       (applicant) =>
         applicant.preferredJob
@@ -100,7 +101,7 @@ const Applicants = () => {
                 name="search"
                 id="search"
                 className="py-2 pl-10 pr-3 border focus:outline-none w-full neumorphic-input"
-                placeholder="Search in the applicants..!"
+                placeholder="Search the applicants by their job..!"
               />
               <FiSearch
                 style={{ color: "#787878" }}
@@ -151,7 +152,7 @@ const Applicants = () => {
                       scope="col"
                       className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                     >
-                      Preferred Job
+                      Suitable Job
                     </th>
                     <th
                       scope="col"
